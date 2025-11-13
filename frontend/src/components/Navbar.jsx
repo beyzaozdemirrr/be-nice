@@ -3,12 +3,13 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { assets } from '../assets/assets'
 
 
+
 const Navbar = () => {
 
     const navigate = useNavigate()
 
     const [visible, setVisible] = useState(false)
-
+    
     return (
         <div className='flex items-center justify-between py-5'>
             <Link to='/'><h1 className='text-2xl'>BE-NICE</h1></Link>
